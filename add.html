@@ -1,0 +1,31 @@
+<html>
+<head>
+<style>
+form
+{
+ background:#CCFF66;
+ height:200px;
+ width:300px;
+ font-size:20px;
+}
+</style>
+<script language="javascript">
+function calt()
+{
+ no=eval(document.getElementById("no").value)
+ num=eval(document.getElementById("noll").value)
+ sum=no+num;
+ document.getElementById("txt3").value=sum
+}
+</script>
+</head>
+<body>
+<center>
+<form>
+Enter number<input type="text" id="no"><br><br>
+second number<input type="text" id="noll"><br><br>
+Result<input type="text" id="txt3"><br><br>
+      <input type="button" id="btntable" value="addition" onclick="calt()"><br><br>
+</center>
+</body>
+</html>	  
